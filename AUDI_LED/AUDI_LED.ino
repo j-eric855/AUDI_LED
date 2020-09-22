@@ -16,8 +16,6 @@ byte ledZustand[6][8] = {
   {0, 1, 0, 0, 0, 0, 1, 0},
 };
 
-#define Laufzeit 100  // Verzögerung in ms zwischen den LEDs wird eingestellt
-
 void setup()
 {
   /******Pinbelegung********/
